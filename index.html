@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>VRAM Calculator for Local LLMs | Port of Code</title>
+    <meta name="description" content="Estimate VRAM and unified memory requirements for local LLMs. Compare model size, quantization, context length, GPU hardware, Apple Silicon, Strix Halo, and multi-GPU setups." />
+    <meta name="keywords" content="VRAM calculator, LLM VRAM calculator, local LLM hardware, GPU memory calculator, Apple Silicon unified memory, NVIDIA RTX AI, quantization calculator, context length memory, GGUF, llama.cpp" />
+    <meta name="author" content="Port of Code" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#111111" />
+    <meta name="application-name" content="VRAM Calculator" />
+
+    <link rel="canonical" href="https://vram.portofcode.com/" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Port of Code" />
+    <meta property="og:title" content="VRAM Calculator for Local LLMs" />
+    <meta property="og:description" content="Estimate local LLM memory needs and find compatible GPU, Apple Silicon, Strix Halo, and multi-GPU hardware." />
+    <meta property="og:url" content="https://vram.portofcode.com/" />
+    <meta property="og:locale" content="en_US" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="VRAM Calculator for Local LLMs" />
+    <meta name="twitter:description" content="Estimate VRAM needs for local LLMs and compare compatible hardware by model, quantization, and context length." />
+
+    <meta name="geo.region" content="US" />
+    <meta name="geo.placename" content="United States" />
+    <meta name="ICBM" content="39.8283, -98.5795" />
+
+    <meta name="ai-summary" content="Port of Code's VRAM Calculator helps people estimate local LLM memory requirements and compare hardware fit across GPUs and unified-memory systems." />
+    <meta name="ai-topics" content="local LLMs, VRAM estimation, GPU selection, unified memory, quantization, context length, llama.cpp, GGUF, AI hardware" />
+    <meta name="generator-optimization" content="Answer-engine friendly: includes structured data, canonical page information, and an llms.txt summary for AI assistants." />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.portofcode.com/#organization",
+            "name": "Port of Code",
+            "url": "https://www.portofcode.com/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://vram.portofcode.com/#website",
+            "name": "VRAM Calculator",
+            "url": "https://vram.portofcode.com/",
+            "publisher": { "@id": "https://www.portofcode.com/#organization" },
+            "inLanguage": "en-US",
+            "description": "A field tool for estimating local LLM VRAM and unified-memory requirements."
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://vram.portofcode.com/#software",
+            "name": "VRAM Calculator",
+            "applicationCategory": "DeveloperApplication",
+            "operatingSystem": "Web",
+            "url": "https://vram.portofcode.com/",
+            "isAccessibleForFree": true,
+            "publisher": { "@id": "https://www.portofcode.com/#organization" },
+            "description": "Estimate memory requirements for running local LLMs and compare model-to-hardware fit across NVIDIA GPUs, Apple Silicon unified memory, AMD Strix Halo, and multi-GPU setups.",
+            "featureList": [
+              "Estimate model weights, KV cache, activations, and runtime overhead",
+              "Compare local LLM fit by quantization and context length",
+              "Evaluate GPU VRAM and unified-memory hardware profiles",
+              "Show field data signals when real-world reports are available"
+            ],
+            "keywords": "VRAM calculator, local LLM, GPU memory, quantization, Apple Silicon, Strix Halo, llama.cpp, GGUF"
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://vram.portofcode.com/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What does the VRAM Calculator estimate?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "It estimates local LLM memory requirements from model weights, KV cache, activations, overhead, quantization, context length, and batch size."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can it compare a model against GPU hardware?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. The model-to-hardware view compares estimated memory needs against GPU VRAM and unified-memory hardware profiles."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can it start from hardware and show compatible models?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. The hardware-to-model view ranks loaded model presets by whether they fit comfortably, are tight, or exceed the selected hardware's usable memory."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/assets/index-DVW4eB0I.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-A3fWe28n.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
