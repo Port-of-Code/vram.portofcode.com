@@ -1,0 +1,11 @@
+{
+  "name": "VRAM Calculator",
+  "short_name": "VRAM Calc",
+  "description": "Estimate VRAM and unified memory requirements for local LLMs and compare compatible hardware.",
+  "start_url": "/#/calc",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#111111",
+  "categories": ["developer", "productivity", "utilities"]
+}
